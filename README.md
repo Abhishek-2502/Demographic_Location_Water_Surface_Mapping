@@ -72,4 +72,4 @@ The primary focus of our research endeavors was to implement sun correction tech
 
 ## Contributors
 
-- Abhishek Rajput
+- Abhishek Rajput (Owner)
