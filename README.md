@@ -69,6 +69,10 @@ The frontend components of this project were developed using standard web techno
 
 The primary focus of our research endeavors was to implement sun correction techniques and derive the Modified Normalized Difference Water Index (MNDWI) from Landsat imagery. Subsequently, machine learning algorithms were employed for predictive analysis. By effectively applying the MNDWI and employing thresholding techniques, we successfully transformed continuous data into binary images. In these binary representations, water bodies are depicted as white pixels, while land surfaces are represented by black pixels. Additionally, predictive modeling techniques were utilized to forecast future land and water patterns, contributing to sustainable planning efforts.
 
+## Ouput 
+
+ ![](randomoutput.png)
+
 
 ## Contributors
 
