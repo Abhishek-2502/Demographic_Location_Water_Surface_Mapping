@@ -76,7 +76,10 @@ The primary focus of our research endeavors was to implement sun correction tech
 
 ## Contributors
 
-- Abhishek Rajput (Owner)
+- Abhishek Rajput
+- Arnav Jain
+- Atul Goyal
+- Janmejay Pandya
 
 ## License
 
