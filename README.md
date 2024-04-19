@@ -2,6 +2,17 @@ README
 
 # Demographic Location Surface Water Mapping Project
 
+## Table of Contents
+
+- [Introduction](#introduction)
+- [Objectives](#objectives)
+- [Problem Statement](#problem-statement)
+- [Dataset Description](#dataset-description)
+- [Technology Stack](#technology-stack)
+- [Results](#results)
+- [Output](#output)
+- [Contributors](#contributors)
+
 ## Introduction
 
 In today’s world, where urban development and the impact of climate change present obstacles to our water resources, the Demographic Location Surface Water Mapping Project emerges as a much-needed initiative. This project aims to address challenges related to water resource management by mapping surface water bodies using satellite imagery and digital image processing techniques. Additionally, it incorporates the task of predicting future land and water patterns, providing valuable insights for sustainable planning and conservation efforts.
