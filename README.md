@@ -27,7 +27,7 @@ The objectives of this project are multi-faceted:
 
 3. **Result Analysis:** Perform comprehensive analysis and comparison of results obtained from different approaches, ensuring accuracy and reliability.
 
-## Problem Statements
+## Problem Statement
 
 One of the primary challenges tackled by this project is the development of an efficient satellite image classification system. This involves utilizing sophisticated image processing techniques and machine learning algorithms to overcome obstacles such as sun and mountain shadows. By implementing shadow correction methods, the goal is to accurately differentiate between land and water areas in satellite imagery, thereby enhancing the interpretation process. Moreover, predicting future land and water patterns adds another layer of complexity, requiring advanced modeling techniques to forecast changes over time accurately.
 
