@@ -2,6 +2,8 @@ README
 
 # Demographic Location Surface Water Mapping Project
 
+Welcome to the Demographic Location Surface Water Mapping Project repository! This project addresses challenges related to water resource management by mapping surface water bodies using satellite imagery and digital image processing techniques and predicting the future.
+
 ## Table of Contents
 
 - [Introduction](#introduction)
