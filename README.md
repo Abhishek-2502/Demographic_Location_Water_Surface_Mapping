@@ -14,8 +14,8 @@ Welcome to the Demographic Location Surface Water Mapping Project repository! Th
 - [Results](#results)
 - [Preprocessing Output](#preprocessing-output)
 - [Average Water and Land](#Average-Water-and-Land)
-- [Comparing R^2](#comparing-r^2)
-- [Comparing RMSE](#comparing-rmse)
+- [R^2](#r^2)
+- [RMSE](#rmse)
 
 ## Introduction
 
@@ -88,11 +88,11 @@ The primary focus of our research endeavors was to implement sun correction tech
 
  ![](Result_Images/Avg_Water_and_Land.png)
 
-## Comparing R^2
+## R^2
 
 ![](Result_Images/R2.png)
 
-## Comparing RMSE
+## RMSE
 
 ![](Result_Images/RMSE.png)
 
