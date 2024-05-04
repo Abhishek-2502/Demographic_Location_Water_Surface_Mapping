@@ -13,6 +13,7 @@ Welcome to the Demographic Location Surface Water Mapping Project repository! Th
 - [Technology Stack](#technology-stack)
 - [Results](#results)
 - [Preprocessing Output](#preprocessing-output)
+- [Average Water and Land](#Average-Water-and-Land)
 - [Comparing R^2](#comparing-r^2)
 - [Comparing RMSE](#comparing-rmse)
 
