@@ -12,8 +12,9 @@ Welcome to the Demographic Location Surface Water Mapping Project repository! Th
 - [Dataset Description](#dataset-description)
 - [Technology Stack](#technology-stack)
 - [Results](#results)
-- [Output](#output)
-- [Contributors](#contributors)
+- [Preprocessing Output](#preprocessing-output)
+- [Comparing R^2](#comparing-r^2)
+- [Comparing RMSE](#comparing-rmse)
 
 ## Introduction
 
@@ -66,26 +67,33 @@ The dataset utilized in this project consists of Landsat 8 Operational Land Imag
 
 **Machine Learning:**
 - **scikit-learn:** Implemented various machine learning algorithms for classification tasks.
+- **xgboost:** Implemented XGBoost machine learning algorithms for prediction.
 - **TensorFlow:** Utilized for advanced neural network implementations.
-- **SciPy:** Employed for scientific computing and advanced mathematical functions.
+- **SciPy:** Employed for scientific computing, advanced mathematical functions and Median Filter.
 
-### Frontend Development
+### Web Development
 
 The frontend components of this project were developed using standard web technologies such as HTML, CSS, and JavaScript.
 
-### Backend Web Development
-
-**Web Framework:** Django
-**Web Hosting and Deployment:** PythonAnywhere
-
 ## Results
 
-The primary focus of our research endeavors was to implement sun correction techniques and derive the Modified Normalized Difference Water Index (MNDWI) from Landsat imagery. Subsequently, machine learning algorithms were employed for predictive analysis. By effectively applying the MNDWI and employing thresholding techniques, we successfully transformed continuous data into binary images. In these binary representations, water bodies are depicted as white pixels, while land surfaces are represented by black pixels. Additionally, predictive modeling techniques were utilized to forecast future land and water patterns, contributing to sustainable planning efforts.
+The primary focus of our research endeavors was to implement sun correction techniques and derive the Modified Normalized Difference Water Index (MNDWI) from Landsat imagery. Subsequently, machine learning algorithms like Linear Regression, Polynomial Regression, Random Forest, Gradient Boosting, Support Vector Machine, K-Nearest Neighbour, XGBoost and Neural Network were employed for predictive analysis. By effectively applying the MNDWI and employing thresholding techniques, we successfully transformed continuous data into binary images. In these binary representations, water bodies are depicted as white pixels, while land surfaces are represented by black pixels. Additionally, predictive modeling techniques were utilized to forecast future land and water patterns, contributing to sustainable planning efforts.
 
-## Output 
+## Preprocessing Output 
 
- ![](randomoutput.png)
+ ![](Result_Images/PreprocessingOutput.png)
 
+## Average Water and Land
+
+ ![](Result_Images/Avg_Water_and_Land.png)
+
+## Comparing R^2
+
+![](Result_Images/R2.png)
+
+## Comparing RMSE
+
+![](Result_Images/RMSE.png)
 
 ## Contributors
 
