@@ -80,6 +80,13 @@ The frontend components of this project were developed using standard web techno
 
 The primary focus of our research endeavors was to implement sun correction techniques and derive the Modified Normalized Difference Water Index (MNDWI) from Landsat imagery. Subsequently, machine learning algorithms like Linear Regression, Polynomial Regression, Random Forest, Gradient Boosting, Support Vector Machine, K-Nearest Neighbour, XGBoost and Neural Network were employed for predictive analysis. By effectively applying the MNDWI and employing thresholding techniques, we successfully transformed continuous data into binary images. In these binary representations, water bodies are depicted as white pixels, while land surfaces are represented by black pixels. Additionally, predictive modeling techniques were utilized to forecast future land and water patterns, contributing to sustainable planning efforts.
 
+The Random Forest and Gradient Boosting models demonstrated superior performance in terms of both RMSE and R², suggesting enhanced predictive accuracy and fit for both water and land surfaces in comparison to other models.
+Linear Regression and Polynomial Regression demonstrated stable performance across various degrees, however they were less effective compared to more intricate models.
+The performance of Support Vector Machine and K-Nearest Neighbours was satisfactory.
+The performance of XGBoost on this dataset was subpar, as indicated by the notably low R² scores, which imply a lack of adequate fit.
+The performance of the Neural Networks was severely subpar, either as a result of overfitting or incorrect configuration.
+
+
 ## Preprocessing Output 
 
  ![](Result_Images/PreprocessingOutput.png)
