@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Comparison of Accuracy and Error</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        
+    }
+	.header {
+        text-align: center;
+        padding: 20px;
+        background: #007BFF;
+        color: white;
+        font-size: 30px;
+        font-weight: bold;
+    }
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
+    }
+    .section {
+        border: 2px solid #000;
+        padding: 10px;
+        width: 90%;
+    }
+    .title {
+        text-align: center;
+        font-size: 24px;
+        font-weight: bold;
+    }
+    table {
+        width: 100%;
+        margin-top: 20px;
+        border-collapse: collapse;
+    }
+    th, td {
+        border: 1px solid #ddd;
+        padding: 8px;
+        text-align: center;
+    }
+    th {
+        background-color: #f2f2f2;
+    }
+</style>
+</head>
+<body>
+	<div class = "header"> Accuracy and Error</div>
+<div class="container">
+    <div class="section" id="water">
+        <div class="title">Water</div>
+        <table>
+            <tr>
+                <th>S.No</th>
+                <th>Algorithm</th>
+                <th>R2</th>
+                <th>RMSE</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Linear Regression
+				</td>
+                <td>0.7504</td>
+                <td>20101.4880</td>
+            </tr>
+            <tr>
+                <td>2.1</td>
+                <td>Polynomial Regression (Degree 1) </td>
+                <td>0.7504</td>
+                <td>20101.4885</td>
+            </tr>
+            <tr>
+                <td>2.2</td>
+                <td>Polynomial Regression (Degree 2) </td>
+                <td>0.7503</td>
+                <td>20102.0943</td>
+            </tr>
+            <tr>
+                <td>2.3</td>
+                <td>Polynomial Regression (Degree 3) </td>
+                <td>0.7501</td>
+                <td>20102.7065</td>
+            </tr>
+            <tr>
+                <td>2.4</td>
+                <td>Polynomial Regression (Degree 4) </td>
+                <td>0.7500</td>
+                <td>20103.3245</td>
+            </tr>
+
+			<tr>
+                <td>3</td>
+                <td>Random Forest
+				</td>
+                <td>0.9225</td>
+                <td>19221.3682</td>
+            </tr>
+			<tr>
+                <td>4</td>
+                <td>Gradient Boosting
+				</td>
+                <td>0.8874</td>
+                <td>19410.7477</td>
+            </tr>
+			<tr>
+                <td>5</td>
+                <td>Support Vector Machine
+				</td>
+                <td>0.5036</td>
+                <td>21191.2422</td>
+            </tr>
+			<tr>
+                <td>6</td>
+                <td>K-Nearest Neighbours
+				</td>
+                <td>0.7238</td>
+                <td>20227.7866</td>
+            </tr>
+			<tr>
+                <td>7</td>
+                <td>XGBoost
+				</td>
+                <td>0.1755</td>
+                <td>23544.8472</td>
+            </tr>
+			<tr>
+                <td>8</td>
+                <td>Neural Networks
+				</td>
+                <td>-9.6816</td>
+                <td>36557.5441</td>
+            </tr>
+            
+        </table>
+    </div>
+    <div class="section" id="land">
+        <div class="title">Land</div>
+        <table>
+            <tr>
+                <th>S.No</th>
+                <th>Algorithm</th>
+                <th>R2</th>
+                <th>MSE</th>
+            </tr>
+			<tr>
+                <td>1</td>
+                <td>Linear Regression
+				</td>
+                <td>0.7652</td>
+                <td>19853.4783</td>
+            </tr>
+            <tr>
+                <td>2.1</td>
+                <td>Polynomial Regression (Degree 1) </td>
+                <td>0.7652</td>
+                <td>19853.4785</td>
+            </tr>
+            <tr>
+                <td>2.2</td>
+                <td>Polynomial Regression (Degree 2) </td>
+                <td>0.7652</td>
+                <td>19853.8129</td>
+            </tr>
+            <tr>
+                <td>2.3</td>
+                <td>Polynomial Regression (Degree 3) </td>
+                <td>0.7651</td>
+                <td>19854.1520</td>
+            </tr>
+            <tr>
+                <td>2.4</td>
+                <td>Polynomial Regression (Degree 4) </td>
+                <td>0.7650</td>
+                <td>19854.4954</td>
+            </tr>
+
+			<tr>
+                <td>3</td>
+                <td>Random Forest
+				</td>
+                <td>0.8401</td>
+                <td>19483.9201</td>
+            </tr>
+			<tr>
+                <td>4</td>
+                <td>Gradient Boosting
+				</td>
+                <td>0.6987</td>
+                <td>20165.0634</td>
+            </tr>
+			<tr>
+                <td>5</td>
+                <td>Support Vector Machine
+				</td>
+                <td>0.5665</td>
+                <td>20744.8697</td>
+            </tr>
+			<tr>
+                <td>6</td>
+                <td>K-Nearest Neighbours
+				</td>
+                <td>0.7588</td>
+                <td>19884.3837</td>
+            </tr>
+			<tr>
+                <td>7</td>
+                <td>XGBoost
+				</td>
+                <td>0.0199</td>
+                <td>22863.8135</td>
+            </tr>
+			<tr>
+                <td>8</td>
+                <td>Neural Networks
+				</td>
+                <td>-18135</td>
+                <td>228441.8480</td>
+            </tr>
+        </table>
+    </div>
+</div>
+</body>
+</html>
