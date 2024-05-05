@@ -14,7 +14,7 @@ Welcome to the Demographic Location Surface Water Mapping Project repository! Th
 - [Results](#results)
 - [Preprocessing Output](#preprocessing-output)
 - [Average Water and Land](#Average-Water-and-Land)
-- [R^2](#r^2)
+- [R² ](#r²)
 - [RMSE](#rmse)
 
 ## Introduction
@@ -95,7 +95,7 @@ The performance of the Neural Networks was severely subpar, either as a result o
 
  ![](Result_Images/Avg_Water_and_Land.png)
 
-## R^2
+## R² 
 
 ![](Result_Images/R2.png)
 
