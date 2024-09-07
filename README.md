@@ -16,6 +16,8 @@ Welcome to the Demographic Location Surface Water Mapping Project repository! Th
 - [Average Water and Land](#Average-Water-and-Land)
 - [R² ](#r²)
 - [RMSE](#rmse)
+- [License](#license)
+- [Contributors](#contributors)
 
 ## Introduction
 
@@ -102,6 +104,11 @@ The performance of the Neural Networks was severely subpar, either as a result o
 ## RMSE
 
 ![](Result_Images/RMSE.png)
+
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Contributors
 
